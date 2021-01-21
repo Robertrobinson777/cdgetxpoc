@@ -32,7 +32,7 @@ class HomeController extends GetxController {
 
       // setState(() {});
     });
-    print(videocontroller.value.duration.inSeconds);
+    // print(videocontroller.value.duration.inSeconds);
     videocontroller.setLooping(true);
     videocontroller.initialize();
   }
