@@ -19,7 +19,7 @@ class SplashController extends GetxController {
     videocontroller.setLooping(true);
     videocontroller.initialize();
     videocontroller.play();
-    Future.delayed(const Duration(seconds: 3), () {
+    Future.delayed(const Duration(seconds: 10), () {
       // videocontroller.dispose();
       Get.offAndToNamed('/login');
     });

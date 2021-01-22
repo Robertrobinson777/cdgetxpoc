@@ -21,6 +21,13 @@ class SplashScreen extends GetView<SplashController> {
         ], begin: Alignment.centerLeft, end: Alignment.centerRight)),
         child: Stack(
           children: [
+            Center(
+              child: Image.asset(
+                "assets/dollar.gif",
+                height: 500.0,
+                width: 500.0,
+              ),
+            ),
             Positioned(
                 top: Get.size.height * 0.3,
                 left: Get.size.width * 0.00,
