@@ -1,5 +1,4 @@
 import 'dart:ui';
-
 import 'package:flutter/material.dart';
 
 import 'package:get/get.dart';
@@ -17,8 +16,8 @@ class LoginView extends GetView<LoginController> {
         width: Get.size.width,
         decoration: BoxDecoration(
             gradient: LinearGradient(colors: [
-          Color.fromRGBO(60, 32, 189, 0.91),
-          Color.fromRGBO(60, 38, 223, 0.71)
+          const Color.fromRGBO(60, 32, 189, 0.91),
+          const Color.fromRGBO(60, 38, 223, 0.71)
         ], begin: Alignment.centerLeft, end: Alignment.centerRight)),
         child: Stack(
           children: [
